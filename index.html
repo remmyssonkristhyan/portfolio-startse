@@ -1,22 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfólio Remmysson</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <section id="presentation">
-        <div class="presentation container">
-            <div>
-                <h1>Olá, <span></span></h1>
-                <h1>meu nome é <span></span></h1>
-                <h1>Remmysson <span></span></h1>
-                <a href="" type="button" class="cta">Portfólio</a>
-            </div>
+      <div class="presentation container">
+        <div>
+          <h1>Olá, <span></span></h1>
+          <h1>meu nome é <span></span></h1>
+          <h1>Remmysson <span></span></h1>
+          <a href="#portfolio" type="button" class="cta">Portifólio</a>
         </div>
+      </div>
     </section>
-</body>
+    <section id="portfolio">
+      <div class="portfolio container">
+        <header class="portfolio-header">
+          <h1 class="section-title">
+            <span>Portifólio</span>
+          </h1>
+        </header>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>De boa em Alagoas</h1>
+              <p>
+                Site desenvolvido para a disciplina de Internet e Web do curso
+                Ciência da Computação - UFAL
+              </p>
+            </div>
+            <div class="project-img">
+              <img
+                src="images/print de boa em alagoas.png"
+                alt="Foto do projeto De Boa em Alagoas"
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Senai Play</h1>
+              <p>
+                Projeto desenvolvido durante o estágio no Senai, trata-se de uma
+                plataforma de cursos online desenvolvida em angular e nestjs,
+                trabalhei como desenvolvedor front-end.
+              </p>
+              <p><a href="https://play.senai.br" target="_blank">Clique para acessar</a></p>
+            </div>
+            <div class="project-img">
+              <img
+                src="images/print senaiplay.png"
+                alt="Foto do projeto Senaiplay"
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
