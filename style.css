@@ -96,11 +96,16 @@ p {
 /* Seção de apresentação */
 
 #presentation {
-    background-image: url('images/background.jpg');
+    background-image: url(./images/background.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
     z-index: 1;
+}
+
+div.presentation > div {
+    width: 50%;
+    margin: 20px;
 }
 
 #presentation h1 {
@@ -173,12 +178,12 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    opacity: 0.5;
+    background-color: #000000;
+    opacity: 0.7;
     z-index: -1;
 }
 
-/* Seção de portifólio */
+/* Seção de Projetos */
 
 #portfolio .portfolio {
     flex-direction: column;
@@ -206,7 +211,7 @@ p {
     width: 80%;
     margin: 20px auto;
     overflow: hidden;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 #portfolio .project-info {
